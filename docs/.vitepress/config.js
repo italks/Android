@@ -2,7 +2,7 @@ export default {
   title: '移动开发',
   description: '',
   lastUpdated: true,
-
+  base: '/Android/',
   themeConfig: {
     nav: nav(),
     socialLinks: [
