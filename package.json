@@ -14,5 +14,15 @@
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.49",
     "vue": "^3.2.47"
+  },
+  "markdownlint.config": {
+    "MD013": false,
+    "no-inline-html": {
+      "allowed_elements": [
+        "details",
+        "h1",
+        "p"
+      ]
+    }
   }
 }
