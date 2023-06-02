@@ -21,8 +21,6 @@ function nav() {
   return [
     { text: 'Home', link: '/', activeMatch: '' },
     { text: 'Tools', link: '/Tools/Charquopy/', activeMatch: '/Tools/' },
-    // { text: 'Kotlin', link: '/Kotlin/', activeMatch: '/Kotlin/' },
-    // { text: 'Jetpack', link: '/Jetpack/', activeMatch: '/Jetpack/' },
     { text: 'README', link: 'https://github.com/italks', activeMatch: '/README/', target: '_self', rel: 'sponsored' }
   ]
 }
